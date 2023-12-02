@@ -13,10 +13,10 @@ import javax.script.ScriptEngineManager;
 import javax.script.ScriptEngine;
 import java.lang.math;
 public class constants{
-  private int planck;
-  private int pi;
-  private int reduced_planck;
-  public constants(int planck_val,int pi_val){
+  private float planck;
+  private float pi;
+  private float reduced_planck;
+  public constants(float planck_val,float pi_val){
     planck = planck_val;
     pi = pi_val;
     int tempint = pi*2;
