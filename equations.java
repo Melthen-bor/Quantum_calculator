@@ -17,6 +17,9 @@ public class equations{
   public equations(){
     float tempfloat = Math.pow(10,-34);
     float plan = 6.62607015*tempint;
-    cons = new constants(plan,
+    tempfloat = 3.141592;
+    cons = new constants(plan,tempfloat);
   }
+  public 
+}
 }
