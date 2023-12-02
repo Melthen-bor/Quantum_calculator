@@ -11,9 +11,12 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptEngine;
-import java.lang.math;
+import java.lang.Math;
 public class equations{
-  private 
+  private constants cons;
   public equations(){
+    float tempfloat = Math.pow(10,-34);
+    float plan = 6.62607015*tempint;
+    cons = new constants(plan,
   }
 }
