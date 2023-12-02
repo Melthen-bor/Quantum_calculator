@@ -1,1 +1,1 @@
-# Quantum_calculator
+# Physics_calculator
