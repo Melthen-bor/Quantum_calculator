@@ -18,22 +18,32 @@ public class constants{
   private float reduced_planck;
   private float grav_constant;
   public constants(float planck_val,float pi_val,float gravity){
-    planck = planck_val;
-    pi = pi_val;
-    float tempint = pi*2;
-    reduced_planck = planck/tempint;
-    grav_constant = gravity;
+    this.planck = planck_val;
+    this.pi = pi_val;
+    float tempint = this.pi*2;
+    this.reduced_planck = planck/tempint;
+    this.grav_constant = gravity;
   }
   public float getplanck(){
-    return planck;
+    return this.planck;
   }
   public float getpi(){
-    return pi;
+    return this.pi;
   }
   public float getredplanck(){
-    return reduced_planck;
+    return this.reduced_planck;
   }
   public float getgravconst(){
-    return grav_constant;
+    return this.grav_constant;
+  }
+  public void setplanck(float setter){
+    this.planck = setter;
+    float tempint = this.pi*2;
+    this.reduced_planck = planck/tempint;
+  }
+  public void setpi(float setter){
+    this.pi = setter;
+    float tempint = this.pi*2;
+    this.reduced_planck = planck/tempint;
   }
 }
