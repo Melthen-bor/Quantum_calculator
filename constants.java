@@ -22,13 +22,13 @@ public class constants{
     int tempint = pi*2;
     reduced_planck = planck/tempint;
   }
-  public getplanck(){
+  public float getplanck(){
     return planck;
   }
-  public getpi(){
+  public float getpi(){
     return pi;
   }
-  public getredplanck(){
+  public float getredplanck(){
     return reduced_planck;
   }
 }
